@@ -2,8 +2,8 @@
 import fetch from 'node-fetch';
 
 const NOTION_API_URL = 'https://api.notion.com/v1/pages';
-const NOTION_DATABASE_ID = 'YOUR_DATABASE_ID'; // 여기에 Database ID 입력
-const NOTION_TOKEN = 'YOUR_NOTION_TOKEN'; // Notion Integration Token 입력
+const NOTION_DATABASE_ID = '1f7225e52dd18017b287e0791b1efd97?v=1f7225e52dd18027aa6f000cba5827bb'; // 여기에 Database ID 입력
+const NOTION_TOKEN = 'ntn_N92257110572Pfzgcv0eI8o5NsdABLCHkwywk2wdNlF7PB'; // Notion Integration Token 입력
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
